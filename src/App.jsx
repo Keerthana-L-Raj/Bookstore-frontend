@@ -39,7 +39,7 @@ useEffect(()=>{
       <Route path='/Careers' element={<Careers/>}/>
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/profile' element={<Profile/>}/>
-      {/* <Route path='/Home' element={<Home/>}/> */}
+    
 
 
        <Route path='/admin-home' element={<AdminHome/>}/>

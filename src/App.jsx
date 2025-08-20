@@ -15,7 +15,6 @@ import AdminBooks from './admin/Pages/AdminBooks'
 import AdminCareers from './admin/Pages/AdminCareers'
 import AdminSettings from './admin/Pages/AdminSettings'
 import PageNotFound from './pages/PageNotFound'
-import EditProfile from './users/components/EditProfile'
 import Paymentsuccess from './users/pages/Paymentsuccess'
 import Paymenterror from './users/pages/Paymenterror'
 
@@ -40,7 +39,7 @@ useEffect(()=>{
       <Route path='/Careers' element={<Careers/>}/>
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/profile' element={<Profile/>}/>
-      <Route path='/Home' element={<Home/>}/>
+      {/* <Route path='/Home' element={<Home/>}/> */}
 
 
        <Route path='/admin-home' element={<AdminHome/>}/>

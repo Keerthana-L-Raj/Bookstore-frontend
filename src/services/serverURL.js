@@ -1,0 +1,1 @@
+export const serverURL = 'https://bookstore-backend-6r4c.onrender.com'
